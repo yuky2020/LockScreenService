@@ -14,7 +14,7 @@ move lockscreenservice.service to /etc/systemd/system ,
 
 move scripts folder to your home ,
 
-edit lock.sh for work with your lockscreen,(i use betterlockscreen that is based on i3lock so it is the default ,you can find it in aur or on [GitHub - pavanjadhaw/betterlockscreen: 🍀 sweet looking lockscreen for linux system](https://github.com/pavanjadhaw/betterlockscreen),)
+edit lock.sh for work with your lockscreen,(i use betterlockscreen that is based on i3lock so it is the default on my sh ,you can find it in aur or on [GitHub - pavanjadhaw/betterlockscreen: 🍀 sweet looking lockscreen for linux system](https://github.com/pavanjadhaw/betterlockscreen),),
 
 chmod 777 lock.sh 
 
