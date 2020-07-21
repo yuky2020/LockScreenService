@@ -2,7 +2,7 @@
 
 ## What do?
 
-permitt to lock the screen automaticlay when the system is suspended or hibernated;
+permitt to lock the screen automatically when the system is suspended or hibernated;
 
 ## Install
 
