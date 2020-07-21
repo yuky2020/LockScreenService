@@ -1,0 +1,13 @@
+[Unit]
+Description=Blocca lo schermo al sospendere
+After=suspend.target
+After=hibernate.target
+
+[Service]
+User=USER
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=/home/USER/scripts/lock.sh
+
+[Install]
+WantedBy=sleep.target
