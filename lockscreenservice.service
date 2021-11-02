@@ -4,10 +4,9 @@ After=suspend.target
 After=hibernate.target
 
 [Service]
-User=USER
 Type=forking
 Environment=DISPLAY=:0
-ExecStart=/home/USER/scripts/lock.sh
+ExecStart=/home/USER/.config/lockscreenservice/lock.sh
 
 [Install]
 WantedBy=sleep.target
